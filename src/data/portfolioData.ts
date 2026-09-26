@@ -265,5 +265,7 @@ export const STUDIO_INFO = {
   instagramHandle: '@diospro',
   instagramUrl: 'https://instagram.com/diospro',
   email: 'wp@wpietrobon.com',
-  whatsappUrl: 'https://wa.me/?text=Hola%20Walter%20%28DIOS%20PRO%29%2C%20quisiera%20consultar%20por%20un%20evento%20social.',
+  whatsappNumber: '2615437508',
+  whatsappDisplay: '+54 9 261 543-7508',
+  whatsappUrl: 'https://wa.me/5492615437508?text=Hola%20Walter%20%28DIOS%20PRO%29%2C%20quisiera%20consultar%20por%20un%20evento%20social.',
 };

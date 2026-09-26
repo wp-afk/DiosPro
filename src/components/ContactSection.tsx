@@ -59,7 +59,7 @@ Mensaje: ${formData.message || 'Sin mensaje adicional'}`;
 
           {/* WhatsApp */}
           <a
-            href={`https://wa.me/?text=${generateWhatsAppMessage()}`}
+            href={`https://wa.me/5492615437508?text=${generateWhatsAppMessage()}`}
             target="_blank"
             rel="noopener noreferrer"
             className="p-5 rounded-2xl bg-zinc-950 border border-zinc-900 hover:border-[#58A472] transition-all flex flex-col items-center group"
@@ -70,8 +70,8 @@ Mensaje: ${formData.message || 'Sin mensaje adicional'}`;
             <span className="text-sm font-bold text-white uppercase tracking-wider">
               WhatsApp
             </span>
-            <span className="text-xs text-zinc-400 font-mono mt-0.5">
-              Mensaje Directo
+            <span className="text-xs text-[#58A472] font-mono mt-0.5">
+              {STUDIO_INFO.whatsappDisplay}
             </span>
           </a>
 
@@ -100,7 +100,7 @@ Mensaje: ${formData.message || 'Sin mensaje adicional'}`;
               <p className="text-white font-bold text-base">¡Mensaje preparado!</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2">
                 <a
-                  href={`https://wa.me/?text=${generateWhatsAppMessage()}`}
+                  href={`https://wa.me/5492615437508?text=${generateWhatsAppMessage()}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 rounded-full bg-[#58A472] text-black font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2"
